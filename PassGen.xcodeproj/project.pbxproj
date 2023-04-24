@@ -8,12 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		CED75CC829F68EB300174220 /* PassGenApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED75CC729F68EB300174220 /* PassGenApp.swift */; };
-		CED75CCA29F68EB300174220 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED75CC929F68EB300174220 /* ContentView.swift */; };
 		CED75CCC29F68EB600174220 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CED75CCB29F68EB600174220 /* Assets.xcassets */; };
 		CED75CCF29F68EB600174220 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CED75CCE29F68EB600174220 /* Preview Assets.xcassets */; };
-		CED75CDA29F68EB600174220 /* PassGenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED75CD929F68EB600174220 /* PassGenTests.swift */; };
-		CED75CE429F68EB600174220 /* PassGenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED75CE329F68EB600174220 /* PassGenUITests.swift */; };
-		CED75CE629F68EB600174220 /* PassGenUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED75CE529F68EB600174220 /* PassGenUITestsLaunchTests.swift */; };
+		CED75CF829F6B00000174220 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CED75CF729F6B00000174220 /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,15 +33,12 @@
 /* Begin PBXFileReference section */
 		CED75CC429F68EB300174220 /* PassGen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PassGen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CED75CC729F68EB300174220 /* PassGenApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassGenApp.swift; sourceTree = "<group>"; };
-		CED75CC929F68EB300174220 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CED75CCB29F68EB600174220 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CED75CCE29F68EB600174220 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CED75CD029F68EB600174220 /* PassGen.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PassGen.entitlements; sourceTree = "<group>"; };
 		CED75CD529F68EB600174220 /* PassGenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PassGenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CED75CD929F68EB600174220 /* PassGenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassGenTests.swift; sourceTree = "<group>"; };
 		CED75CDF29F68EB600174220 /* PassGenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PassGenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CED75CE329F68EB600174220 /* PassGenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassGenUITests.swift; sourceTree = "<group>"; };
-		CED75CE529F68EB600174220 /* PassGenUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassGenUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CED75CF729F6B00000174220 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,8 +70,6 @@
 			isa = PBXGroup;
 			children = (
 				CED75CC629F68EB300174220 /* PassGen */,
-				CED75CD829F68EB600174220 /* PassGenTests */,
-				CED75CE229F68EB600174220 /* PassGenUITests */,
 				CED75CC529F68EB300174220 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -95,8 +87,8 @@
 		CED75CC629F68EB300174220 /* PassGen */ = {
 			isa = PBXGroup;
 			children = (
+				CED75CF729F6B00000174220 /* Info.plist */,
 				CED75CC729F68EB300174220 /* PassGenApp.swift */,
-				CED75CC929F68EB300174220 /* ContentView.swift */,
 				CED75CCB29F68EB600174220 /* Assets.xcassets */,
 				CED75CD029F68EB600174220 /* PassGen.entitlements */,
 				CED75CCD29F68EB600174220 /* Preview Content */,
@@ -110,23 +102,6 @@
 				CED75CCE29F68EB600174220 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		CED75CD829F68EB600174220 /* PassGenTests */ = {
-			isa = PBXGroup;
-			children = (
-				CED75CD929F68EB600174220 /* PassGenTests.swift */,
-			);
-			path = PassGenTests;
-			sourceTree = "<group>";
-		};
-		CED75CE229F68EB600174220 /* PassGenUITests */ = {
-			isa = PBXGroup;
-			children = (
-				CED75CE329F68EB600174220 /* PassGenUITests.swift */,
-				CED75CE529F68EB600174220 /* PassGenUITestsLaunchTests.swift */,
-			);
-			path = PassGenUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,6 +210,7 @@
 			files = (
 				CED75CCF29F68EB600174220 /* Preview Assets.xcassets in Resources */,
 				CED75CCC29F68EB600174220 /* Assets.xcassets in Resources */,
+				CED75CF829F6B00000174220 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,7 +235,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CED75CCA29F68EB300174220 /* ContentView.swift in Sources */,
 				CED75CC829F68EB300174220 /* PassGenApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,7 +243,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CED75CDA29F68EB600174220 /* PassGenTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,8 +250,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CED75CE629F68EB600174220 /* PassGenUITestsLaunchTests.swift in Sources */,
-				CED75CE429F68EB600174220 /* PassGenUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
