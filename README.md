@@ -4,7 +4,7 @@
 A lightweight and fast password generator for macOS 13.0+
 
 ## Downloads
-You can get a copy of PassGen [here]()
+You can get a copy of PassGen [here](https://github.com/Yan-Jobs/PassGen/releases)
 
 ## Build
 To build PassGen by yourself you need Xcode 14.1+, then build it as usual.
