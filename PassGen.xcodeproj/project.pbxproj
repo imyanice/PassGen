@@ -1,0 +1,581 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CED75CC829F68EB300174220 /* PassGenApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED75CC729F68EB300174220 /* PassGenApp.swift */; };
+		CED75CCA29F68EB300174220 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED75CC929F68EB300174220 /* ContentView.swift */; };
+		CED75CCC29F68EB600174220 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CED75CCB29F68EB600174220 /* Assets.xcassets */; };
+		CED75CCF29F68EB600174220 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CED75CCE29F68EB600174220 /* Preview Assets.xcassets */; };
+		CED75CDA29F68EB600174220 /* PassGenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED75CD929F68EB600174220 /* PassGenTests.swift */; };
+		CED75CE429F68EB600174220 /* PassGenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED75CE329F68EB600174220 /* PassGenUITests.swift */; };
+		CED75CE629F68EB600174220 /* PassGenUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED75CE529F68EB600174220 /* PassGenUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CED75CD629F68EB600174220 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CED75CBC29F68EB300174220 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CED75CC329F68EB300174220;
+			remoteInfo = PassGen;
+		};
+		CED75CE029F68EB600174220 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CED75CBC29F68EB300174220 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CED75CC329F68EB300174220;
+			remoteInfo = PassGen;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CED75CC429F68EB300174220 /* PassGen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PassGen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CED75CC729F68EB300174220 /* PassGenApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassGenApp.swift; sourceTree = "<group>"; };
+		CED75CC929F68EB300174220 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CED75CCB29F68EB600174220 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CED75CCE29F68EB600174220 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CED75CD029F68EB600174220 /* PassGen.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PassGen.entitlements; sourceTree = "<group>"; };
+		CED75CD529F68EB600174220 /* PassGenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PassGenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CED75CD929F68EB600174220 /* PassGenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassGenTests.swift; sourceTree = "<group>"; };
+		CED75CDF29F68EB600174220 /* PassGenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PassGenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CED75CE329F68EB600174220 /* PassGenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassGenUITests.swift; sourceTree = "<group>"; };
+		CED75CE529F68EB600174220 /* PassGenUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassGenUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CED75CC129F68EB300174220 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CED75CD229F68EB600174220 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CED75CDC29F68EB600174220 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CED75CBB29F68EB300174220 = {
+			isa = PBXGroup;
+			children = (
+				CED75CC629F68EB300174220 /* PassGen */,
+				CED75CD829F68EB600174220 /* PassGenTests */,
+				CED75CE229F68EB600174220 /* PassGenUITests */,
+				CED75CC529F68EB300174220 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CED75CC529F68EB300174220 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CED75CC429F68EB300174220 /* PassGen.app */,
+				CED75CD529F68EB600174220 /* PassGenTests.xctest */,
+				CED75CDF29F68EB600174220 /* PassGenUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CED75CC629F68EB300174220 /* PassGen */ = {
+			isa = PBXGroup;
+			children = (
+				CED75CC729F68EB300174220 /* PassGenApp.swift */,
+				CED75CC929F68EB300174220 /* ContentView.swift */,
+				CED75CCB29F68EB600174220 /* Assets.xcassets */,
+				CED75CD029F68EB600174220 /* PassGen.entitlements */,
+				CED75CCD29F68EB600174220 /* Preview Content */,
+			);
+			path = PassGen;
+			sourceTree = "<group>";
+		};
+		CED75CCD29F68EB600174220 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CED75CCE29F68EB600174220 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CED75CD829F68EB600174220 /* PassGenTests */ = {
+			isa = PBXGroup;
+			children = (
+				CED75CD929F68EB600174220 /* PassGenTests.swift */,
+			);
+			path = PassGenTests;
+			sourceTree = "<group>";
+		};
+		CED75CE229F68EB600174220 /* PassGenUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CED75CE329F68EB600174220 /* PassGenUITests.swift */,
+				CED75CE529F68EB600174220 /* PassGenUITestsLaunchTests.swift */,
+			);
+			path = PassGenUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CED75CC329F68EB300174220 /* PassGen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CED75CE929F68EB600174220 /* Build configuration list for PBXNativeTarget "PassGen" */;
+			buildPhases = (
+				CED75CC029F68EB300174220 /* Sources */,
+				CED75CC129F68EB300174220 /* Frameworks */,
+				CED75CC229F68EB300174220 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PassGen;
+			productName = PassGen;
+			productReference = CED75CC429F68EB300174220 /* PassGen.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CED75CD429F68EB600174220 /* PassGenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CED75CEC29F68EB600174220 /* Build configuration list for PBXNativeTarget "PassGenTests" */;
+			buildPhases = (
+				CED75CD129F68EB600174220 /* Sources */,
+				CED75CD229F68EB600174220 /* Frameworks */,
+				CED75CD329F68EB600174220 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CED75CD729F68EB600174220 /* PBXTargetDependency */,
+			);
+			name = PassGenTests;
+			productName = PassGenTests;
+			productReference = CED75CD529F68EB600174220 /* PassGenTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CED75CDE29F68EB600174220 /* PassGenUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CED75CEF29F68EB600174220 /* Build configuration list for PBXNativeTarget "PassGenUITests" */;
+			buildPhases = (
+				CED75CDB29F68EB600174220 /* Sources */,
+				CED75CDC29F68EB600174220 /* Frameworks */,
+				CED75CDD29F68EB600174220 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CED75CE129F68EB600174220 /* PBXTargetDependency */,
+			);
+			name = PassGenUITests;
+			productName = PassGenUITests;
+			productReference = CED75CDF29F68EB600174220 /* PassGenUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CED75CBC29F68EB300174220 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					CED75CC329F68EB300174220 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					CED75CD429F68EB600174220 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = CED75CC329F68EB300174220;
+					};
+					CED75CDE29F68EB600174220 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = CED75CC329F68EB300174220;
+					};
+				};
+			};
+			buildConfigurationList = CED75CBF29F68EB300174220 /* Build configuration list for PBXProject "PassGen" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CED75CBB29F68EB300174220;
+			productRefGroup = CED75CC529F68EB300174220 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CED75CC329F68EB300174220 /* PassGen */,
+				CED75CD429F68EB600174220 /* PassGenTests */,
+				CED75CDE29F68EB600174220 /* PassGenUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CED75CC229F68EB300174220 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CED75CCF29F68EB600174220 /* Preview Assets.xcassets in Resources */,
+				CED75CCC29F68EB600174220 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CED75CD329F68EB600174220 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CED75CDD29F68EB600174220 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CED75CC029F68EB300174220 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CED75CCA29F68EB300174220 /* ContentView.swift in Sources */,
+				CED75CC829F68EB300174220 /* PassGenApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CED75CD129F68EB600174220 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CED75CDA29F68EB600174220 /* PassGenTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CED75CDB29F68EB600174220 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CED75CE629F68EB600174220 /* PassGenUITestsLaunchTests.swift in Sources */,
+				CED75CE429F68EB600174220 /* PassGenUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CED75CD729F68EB600174220 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CED75CC329F68EB300174220 /* PassGen */;
+			targetProxy = CED75CD629F68EB600174220 /* PBXContainerItemProxy */;
+		};
+		CED75CE129F68EB600174220 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CED75CC329F68EB300174220 /* PassGen */;
+			targetProxy = CED75CE029F68EB600174220 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CED75CE729F68EB600174220 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CED75CE829F68EB600174220 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		CED75CEA29F68EB600174220 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PassGen/PassGen.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PassGen/Preview Content\"";
+				DEVELOPMENT_TEAM = YC6DZUZBY3;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.yanjobs.PassGen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		CED75CEB29F68EB600174220 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PassGen/PassGen.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PassGen/Preview Content\"";
+				DEVELOPMENT_TEAM = YC6DZUZBY3;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.yanjobs.PassGen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		CED75CED29F68EB600174220 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YC6DZUZBY3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.yanjobs.PassGenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PassGen.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PassGen";
+			};
+			name = Debug;
+		};
+		CED75CEE29F68EB600174220 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YC6DZUZBY3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.yanjobs.PassGenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PassGen.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PassGen";
+			};
+			name = Release;
+		};
+		CED75CF029F68EB600174220 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YC6DZUZBY3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.yanjobs.PassGenUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = PassGen;
+			};
+			name = Debug;
+		};
+		CED75CF129F68EB600174220 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YC6DZUZBY3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.yanjobs.PassGenUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = PassGen;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CED75CBF29F68EB300174220 /* Build configuration list for PBXProject "PassGen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CED75CE729F68EB600174220 /* Debug */,
+				CED75CE829F68EB600174220 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CED75CE929F68EB600174220 /* Build configuration list for PBXNativeTarget "PassGen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CED75CEA29F68EB600174220 /* Debug */,
+				CED75CEB29F68EB600174220 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CED75CEC29F68EB600174220 /* Build configuration list for PBXNativeTarget "PassGenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CED75CED29F68EB600174220 /* Debug */,
+				CED75CEE29F68EB600174220 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CED75CEF29F68EB600174220 /* Build configuration list for PBXNativeTarget "PassGenUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CED75CF029F68EB600174220 /* Debug */,
+				CED75CF129F68EB600174220 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CED75CBC29F68EB300174220 /* Project object */;
+}
